@@ -34,6 +34,8 @@ public class FFmpegUtils {
         return mInstance;
     }
 
-
-    public native int execute(String[] cmd);
+    public native String urlProtocolInfo();
+    public native String avCodecInfo();
+    public native String avFilterInfo();
+    public native String avFormatInfo();
 }
